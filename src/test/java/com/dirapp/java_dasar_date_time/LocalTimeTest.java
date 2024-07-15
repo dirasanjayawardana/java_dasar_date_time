@@ -8,6 +8,8 @@ public class LocalTimeTest {
   // LocalTime merupakan representasi untuk tipe data waktu (tanpa tanggal)
   // LocalTime juga immutable, jika diubah maka akan menghasilkan object baru
   // format standard LocalTime adalah HH:mm:ss.nano, dimana second dan nano second nya optional
+  // pada LocalTime, LocalDate, LocalDateTime, tidak memiliki informasi timezone
+  // jika memerlukan informasi timezone bisa gunakan ZonedDateTime
 
   @Test
   void create() {

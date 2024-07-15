@@ -9,6 +9,8 @@ public class LocalDateTest {
   // LocalDate merupakan representasi untuk tipe data tanggal (tanpa waktu)
   // LocalDate juga immutable, jika diubah maka akan menghasilkan object baru
   // default formatnya yyyy-MM-dd
+  // pada LocalTime, LocalDate, LocalDateTime, tidak memiliki informasi timezone
+  // jika memerlukan informasi timezone bisa gunakan ZonedDateTime
 
 
   @Test

@@ -15,3 +15,7 @@ Java Date dan Time API pada package `java.time` merupakan fitur baru sejak java 
 - test/LocalTimeTest.java
 - test/LocalDateTimeTest.java
 - test/YearTest.java
+- test/ZoneTest.java
+- test/ZonedDateTimeTest.java
+- test/OffsetTimeTest.java
+- test/InstantTest.java

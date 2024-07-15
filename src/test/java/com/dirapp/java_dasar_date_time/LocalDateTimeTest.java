@@ -12,6 +12,8 @@ public class LocalDateTimeTest {
   // LocalDateTime juga immutable, jika diubah maka akan menghasilkan object baru
   // LocalDateTime mirip seperti gabungan antara LocalDate dan LocalTime
   // format defaultnya adalah yyyy-MM-ddTHH:mm:ss.nano
+  // pada LocalTime, LocalDate, LocalDateTime, tidak memiliki informasi timezone
+  // jika memerlukan informasi timezone bisa gunakan ZonedDateTime
 
 
   @Test
